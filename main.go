@@ -7,5 +7,5 @@ import (
 
 func main() {
 	tolstoy, _ := ioutil.ReadFile("warandpeace")
-	fmt.Println(string(tolstoy))
+	fmt.Println(len(string(tolstoy)))
 }
